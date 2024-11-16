@@ -6,7 +6,6 @@ from PIL import Image
 f=open(r"C:\Users\yuvraj\Downloads\keys\geminiAPI.txt")
 key=f.read()
 genai.configure(api_key=key)
-#genai.configure(api_key="AIzaSyAxYojiuaLswHwedp5Iqaa7m7VZlcPd1v8")
 
 sys_prompt = """You are an AI code reviewer specializing in providing detailed and constructive feedback on code quality,
                 readability, optimization, and adherence to best practices. Your expertise covers multiple programming languages,
